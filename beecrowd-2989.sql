@@ -1,4 +1,5 @@
 -- Beecrowd 2989
+-- https://www.beecrowd.com.br/judge/pt/problems/view/2998
 
 WITH sum_salary AS (
 	SELECT

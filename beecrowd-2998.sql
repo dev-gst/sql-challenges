@@ -1,4 +1,5 @@
 -- Beecrowd 2998
+-- https://www.beecrowd.com.br/judge/pt/problems/view/2989
 
 WITH calc_return AS (
 	SELECT
