@@ -19,7 +19,7 @@ The SQL challenges in this repository cover various aspects of SQL, including qu
 
    Description: query to find name and addresses of clients that live in Porto Alegre.
    Main SQL terms used:
-    ```
+    ```sql
     SELECT, FROM, WHERE
     ```
 
@@ -27,14 +27,14 @@ The SQL challenges in this repository cover various aspects of SQL, including qu
 
     Description: query to find name and quantity of products in stock from each category.
     Main SQL terms used:
-     ```
+     ```sql
      SELECT, FROM, JOIN, ON, GROUP BY, AS, SUM()
      ```
 3. **Challenge Beecrowd 2616**:
 
    Description: query to find id and name of client that didn't make any location.
    Main SQL terms used:
-     ```
+     ```sql
      SELECT, FROM, AS, WHERE, NOT, IN
      ```
 
@@ -42,7 +42,7 @@ The SQL challenges in this repository cover various aspects of SQL, including qu
 
    Description: query to find name of the lawyer with more clients, name of the lawyer with fewer clients and the average of clients
    Main SQL terms used:
-     ```
+     ```sql
      MAX(), MIN(), AVG(), ROUND(), UNION ALL
      ```
 
@@ -50,7 +50,7 @@ The SQL challenges in this repository cover various aspects of SQL, including qu
 
    Description: query to find name and score of all research candidates 
    Main SQL terms used:
-     ```
+     ```sql
      SELECT, FROM, AS, ROUND(), JOIN, ON, ORDER BY, DESC
      ```
 
@@ -58,7 +58,7 @@ The SQL challenges in this repository cover various aspects of SQL, including qu
 
    Description: query to soccer team, number of matches, number of victories, number of draws, number of defeats and score.
    Main SQL terms used:
-     ```
+     ```sql
      CASE, WHEN, THEN, ELSE, END, JOIN, ON, SUM(),
      ```
 
@@ -66,7 +66,7 @@ The SQL challenges in this repository cover various aspects of SQL, including qu
 
    Description: query to find department, division, average and max salary per division.
    Main SQL terms used:
-   ```
+   ```sql
    LEFT JOIN, GROUP BY, ORDER BY, ROUND(), JOIN, ON, COALESCE(), SUM(), MAX(), AVG()
    ```
 
@@ -74,7 +74,7 @@ The SQL challenges in this repository cover various aspects of SQL, including qu
 
    Description: query to find department, number of employees, average salary, max salary and min salary.
    Main SQL terms used:
-     ```
+     ```sql
      COUNT(), SUM(), COALESCE(), ROUND(), MAX(), MIN(), AVG()
      ```
    
@@ -82,32 +82,33 @@ The SQL challenges in this repository cover various aspects of SQL, including qu
 
    Description: query to find department, division with the highest average salary and the highest average salary.
    Main SQL terms used:
-     ```
-     SUM(), COALESCE(), ROUND(), MAX(), AVG(), CASE, WHEN, THEN, ELSE, END
-     ```
+   ```sql
+    SUM(), COALESCE(), ROUND(), MAX(), AVG(), CASE, WHEN, THEN, ELSE, END
+   ```
+
 10. **Challenge Beecrowd 2995**:
 
    Description: query to find temperature and number of records.
    Main SQL terms used:
-     ```
-     COUNT()... OVER(), PARTITION BY
-     ```
+   ```sql
+   COUNT()... OVER(), PARTITION BY
+   ```
 
 11. **Challenge Beecrowd 2997**:
 
    Description: query to find department, name of employee, raw salary, total of discounts and liquid salary.
    Main SQL terms used:
-     ```
-     SUM(), COALESCE(), LEFT JOIN
-     ```
+   ```sql
+   SUM(), COALESCE(), LEFT JOIN
+   ```
 
 12. **Challenge Beecrowd 2998**:
 
    Description: query to find name, initial investment, month of payback and return from clients that have a payback.
    Main SQL terms used:
-     ```
-     SUM()... OVER(), WHEN, THEN, ELSE, END, PARTITION BY, ROWS UNBOUNDED PRECEDING, ROW_NUMBER()... OVER().
-     ```
+   ```sql
+   SUM()... OVER(), WHEN, THEN, ELSE, END, PARTITION BY, ROWS UNBOUNDED PRECEDING, ROW_NUMBER()... OVER().
+   ```
 
 13. **More to come**:
 
