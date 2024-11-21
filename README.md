@@ -38,7 +38,15 @@ The SQL challenges in this repository cover various aspects of SQL, including qu
      SELECT, FROM, AS, WHERE, NOT, IN
      ```
 
-4. **Challenge Beecrowd 2738**:
+4. **Challenge Beecrowd 2737**:
+
+   Description: query to find name of the lawyer with more clients, name of the lawyer with fewer clients and the average of clients
+   Main SQL terms used:
+     ```
+     MAX(), MIN(), AVG(), ROUND(), UNION ALL
+     ```
+
+5. **Challenge Beecrowd 2738**:
 
    Description: query to find name and score of all research candidates 
    Main SQL terms used:
@@ -46,7 +54,15 @@ The SQL challenges in this repository cover various aspects of SQL, including qu
      SELECT, FROM, AS, ROUND(), JOIN, ON, ORDER BY, DESC
      ```
 
-5. **Challenge Beecrowd 2989**:
+6. **Challenge Beecrowd 2988**:
+
+   Description: query to soccer team, number of matches, number of victories, number of draws, number of defeats and score.
+   Main SQL terms used:
+     ```
+     CASE, WHEN, THEN, ELSE, END, JOIN, ON, SUM(),
+     ```
+
+7. **Challenge Beecrowd 2989**:
 
    Description: query to find department, division, average and max salary per division.
    Main SQL terms used:
@@ -54,7 +70,38 @@ The SQL challenges in this repository cover various aspects of SQL, including qu
    LEFT JOIN, GROUP BY, ORDER BY, ROUND(), JOIN, ON, COALESCE(), SUM(), MAX(), AVG()
    ```
 
-6. **Challenge Beecrowd 2998**:
+8. **Challenge Beecrowd 2991**:
+
+   Description: query to find department, number of employees, average salary, max salary and min salary.
+   Main SQL terms used:
+     ```
+     COUNT(), SUM(), COALESCE(), ROUND(), MAX(), MIN(), AVG()
+     ```
+   
+9. **Challenge Beecrowd 2992**:
+
+   Description: query to find department, division with the highest average salary and the highest average salary.
+   Main SQL terms used:
+     ```
+     SUM(), COALESCE(), ROUND(), MAX(), AVG(), CASE, WHEN, THEN, ELSE, END
+     ```
+10. **Challenge Beecrowd 2995**:
+
+   Description: query to find temperature and number of records.
+   Main SQL terms used:
+     ```
+     COUNT()... OVER(), PARTITION BY
+     ```
+
+11. **Challenge Beecrowd 2997**:
+
+   Description: query to find department, name of employee, raw salary, total of discounts and liquid salary.
+   Main SQL terms used:
+     ```
+     SUM(), COALESCE(), LEFT JOIN
+     ```
+
+12. **Challenge Beecrowd 2998**:
 
    Description: query to find name, initial investment, month of payback and return from clients that have a payback.
    Main SQL terms used:
@@ -62,7 +109,7 @@ The SQL challenges in this repository cover various aspects of SQL, including qu
      SUM()... OVER(), WHEN, THEN, ELSE, END, PARTITION BY, ROWS UNBOUNDED PRECEDING, ROW_NUMBER()... OVER().
      ```
 
-7. **More to come**:
+13. **More to come**:
 
    More challenges will be added to this repository soon.
 
